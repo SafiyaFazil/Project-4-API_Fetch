@@ -7,9 +7,9 @@ fetch(URL)
     const x = res.map((data) => {
       return `<div>
       <b>Name: ${data.name}</b><br>
-      Email:${data.email}<br>
-      Street:${data.address.street}<br>
-      City:${data.address.city}
+      Email: ${data.email}<br>
+      Street: ${data.address.street}<br>
+      City: ${data.address.city}
       </div>`;
     });
 
